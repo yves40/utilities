@@ -10,6 +10,7 @@
      Aug 09 2003    Modified to be integrated in gaia's prototype class hierarchy
      Oct 30 2003    Package redefinition
      Feb 18 2019    VScode integration
+     Feb 19 2019    Get version
 --------------------------------------------------------------------------------------*/
 package org.mouserabbit.utilities.encoders;
 
@@ -21,8 +22,14 @@ package org.mouserabbit.utilities.encoders;
 //--------------------------------------------------------------------------------
 public class Base64 {
 
-     private static final String Version = "Base64 V 1.09, Oct 30 2003";
+     private static final String Version = "Base64 V 1.10, Feb 19 2019";
 
+     // ---------------------------------------------------------------------------
+     // Version
+     // ---------------------------------------------------------------------------
+     public static String getVersion() {
+          return Version;
+     }
      // ---------------------------------------------------------------------------
      // Encoding
      // ---------------------------------------------------------------------------
@@ -84,7 +91,6 @@ public class Base64 {
      // ---------------------------------------------------------------------------
      public static byte[] decode(String base64) {
           int pad = 0;
-          int checkup = base64.length();
           // Count padding digits
           for (int i = base64.length() - 1; base64.charAt(i) == '='; i--) {
                pad++;

@@ -8,6 +8,7 @@
      Aug 09 2003       Modified to be integrated in gaia's prototype class hierarchy
      Oct 30 2003       Package redefinition
      Feb 18 2019       VScode integration
+     Feb 19 2019       Version
 --------------------------------------------------------------------------------------*/
 package org.mouserabbit.utilities.encoders;
 
@@ -19,8 +20,14 @@ package org.mouserabbit.utilities.encoders;
 //===========================================================================
 public class BASE64Encoder {
 
-     private static final     String              Version = "Base64Encoder 1.05, Oct 30 2003";
+     private static final     String              Version = "Base64Encoder 1.06, Feb 19 2019";
 
+     // ---------------------------------------------------------------------------
+     // Version
+     // ---------------------------------------------------------------------------
+     public static String getVersion() {
+          return Version;
+     }
 
      public String encodeBuffer(byte[] raw) {
           return Base64.encode(raw);

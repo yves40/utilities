@@ -22,7 +22,7 @@ import org.apache.log4j.Logger;
 
 public class hashEncoder {
 
-    protected static final String Version = "hashEncoder 1.02, Feb 04 2010 ";      // TODO
+    protected static final String Version = "hashEncoder 1.02, Feb 04 2010 "; 
     
     protected static Logger log = Logger.getLogger(hashEncoder.class.getName());
 
