@@ -3,5 +3,29 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"launch": {
+		"configurations": [
+			{
+				"type": "java",
+				"name": "Debug (Launch)",
+				"request": "launch",
+				"mainClass": "app.App",
+				"projectName": "utilities"
+			},
+			{
+				"type": "java",
+				"name": "Debug (Launch) - Current File",
+				"request": "launch",
+				"mainClass": "${file}"
+			},
+			{
+				"type": "java",
+				"name": "Debug (Launch)-App<utilities>",
+				"request": "launch",
+				"mainClass": "app.App",
+				"projectName": "utilities"
+			}
+		]
+	}
 }
