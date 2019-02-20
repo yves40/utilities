@@ -18,6 +18,7 @@
      May 20 2016    Improve common log4j.xml file deployment
      Jun 18 2017    Manifest for baseconnect modified; No more sqltools package
      Feb 18 2019    Vscode
+     Feb 20 2019    Small change in template log4j location
      
 -->
 <project default="help">
@@ -100,7 +101,7 @@
         </scp>
         <scp todir="${remote.hostaccount}@${remote.host}:${remote.dir}" password="${remote.accountpass}" trust="true"
              verbose="${copy.verbosemode}">
-            <fileset dir="${javasources.dir}">
+            <fileset dir="${log4jsources.dir}">
                 <include name="log4j-unix.xml"/>
             </fileset>
         </scp>
