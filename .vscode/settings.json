@@ -1,0 +1,6 @@
+{
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "d:\\ALL-LIBS\\UTILITIES\\utilities.jar"
+  ]
+}

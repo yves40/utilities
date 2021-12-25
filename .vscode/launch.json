@@ -6,22 +6,17 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)",
+            "name": "todel",
             "request": "launch",
-            "mainClass": "App"
+            "mainClass": "app.todel",
+            "projectName": "utilities"
         },
         {
             "type": "java",
-            "name": "Debug (Launch) - Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-App<utilities>",
+            "name": "App",
             "request": "launch",
             "mainClass": "app.App",
             "projectName": "utilities"
-        }
+        },
     ]
 }
