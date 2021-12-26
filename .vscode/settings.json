@@ -1,5 +1,5 @@
 {
-  "ant.home": "d:\\TOOLS\\apache-ant-1.9.14\\",
+  "ant.home": "d:\\TOOLS\\apache-ant-1.9.14",
   "ant.buildFilenames": "build.xml",
   "ant.buildFileDirectories": "./src/build",
 }
