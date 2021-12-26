@@ -1,6 +1,5 @@
 {
-  "java.project.referencedLibraries": [
-    "lib/**/*.jar",
-    "d:\\ALL-LIBS\\UTILITIES\\utilities.jar"
-  ]
+  "ant.home": "d:\\TOOLS\\apache-ant-1.9.14\\",
+  "ant.buildFilenames": "build.xml",
+  "ant.buildFileDirectories": "./src/build",
 }
